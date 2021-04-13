@@ -30,6 +30,7 @@ export default class HeroSection extends Component {
 			slidesToShow: 1,
 			nextArrow: <CustomArrow type="right" />,
 			prevArrow: <CustomArrow />,
+			dotsClass: "slick-dots md-size",
 			appendDots: (dots) => {
 				console.log("[dots]", dots);
 				return (
