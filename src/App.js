@@ -6,6 +6,9 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import Loader from "./components/loader/Loader";
 
+// import "~slick-carousel/slick/slick.css";
+// import "~slick-carousel/slick/slick-theme.css";
+
 class App extends Component {
 	render() {
 		console.log(this.props.stt.isLoading);
