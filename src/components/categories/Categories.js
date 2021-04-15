@@ -53,7 +53,7 @@ class Categories extends Component {
 		return (
 			<React.Fragment>
 				<Backdrops closed={this.props.clickClose} />
-				<div className="fixed left-0 right-0 shadow-lg bg-white h-auto py-4">
+				<div className="absolute z-50 left-0 right-0 shadow-lg bg-white h-auto py-4">
 					<div
 						style={{ height: "400px" }}
 						className="h-full overflow-y-auto"

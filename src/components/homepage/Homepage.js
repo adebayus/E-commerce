@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Flashsales from "../flashsale/Flashsales";
 import HeroSection from "../herosection/HeroSection";
 
 class Homepage extends Component {
@@ -7,7 +8,7 @@ class Homepage extends Component {
 			<React.Fragment>
 				<div className="container mx-auto">
 					<HeroSection />
-					<div>Rekomendasi</div>
+					<Flashsales />
 				</div>
 			</React.Fragment>
 		);

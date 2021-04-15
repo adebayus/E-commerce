@@ -8,7 +8,6 @@ export default class Layouts extends Component {
 			<React.Fragment>
 				<Navigations />
 				<Homepage />
-				<div>content</div>
 			</React.Fragment>
 		);
 	}
