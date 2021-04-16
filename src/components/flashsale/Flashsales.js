@@ -76,16 +76,27 @@ function Flashsales() {
 			<div className="rounded-md bg-flashsale-pattern bg-cover bg-center bg-no-repeat grid gap-2 grid-cols-4 p-4">
 				<div className="px-5">
 					<h2
+<<<<<<< HEAD
 						style={{ height: "85%" }}
+=======
+						style={{ height: "90%" }}
+>>>>>>> 3d70c9933615f846cdfcb7097ae4ae5c8956a5cb
 						className="text-8xl font-Dancing font-bold text-dark-frost justify-center flex items-center"
 					>
 						Flash Sales
 					</h2>
 					<div
+<<<<<<< HEAD
 						style={{ height: "15%" }}
 						className="w-full flex mb-9 items-center justify-center rounded bg-hot-pink p-5"
 					>
 						<a className="text-white text-2xl font-bold tracking-wider cursor-pointer">
+=======
+						style={{ height: "10%" }}
+						className="w-full flex items-center justify-center bg-hot-pink p-5"
+					>
+						<a className="text-white text-2xl tracking-wider cursor-pointer">
+>>>>>>> 3d70c9933615f846cdfcb7097ae4ae5c8956a5cb
 							Lihat Semua
 						</a>
 					</div>

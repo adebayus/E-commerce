@@ -21,7 +21,11 @@ module.exports = {
 			fontFamily: {
 				trainOne: '"Train One"',
 				libre: '"Libre Franklin"',
+<<<<<<< HEAD
 				Lato: '"Lato',
+=======
+				Lato: '"Lato"',
+>>>>>>> 3d70c9933615f846cdfcb7097ae4ae5c8956a5cb
 				Dancing: '"Dancing Script"',
 			},
 			backgroundImage: (theme) => ({

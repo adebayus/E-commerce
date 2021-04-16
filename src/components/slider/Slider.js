@@ -54,8 +54,13 @@ function Slider(props) {
 			...caraouselSetting,
 			slidesToShow: props.numberShow,
 			slideToScrool: 1,
+<<<<<<< HEAD
 			autoplay: false,
 			autoplay: true,
+=======
+			autoplay: true,
+			dots: false,
+>>>>>>> 3d70c9933615f846cdfcb7097ae4ae5c8956a5cb
 		};
 		caraouselSetting = { ...duplicate };
 	}
